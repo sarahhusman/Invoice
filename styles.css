@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+.html {
+    background-color: #f5f5dc;
+}
+
+.main-header {
+    background-color: blue;
+    color: white;
+    border-radius: 40px;
+    border-radius: 32px;
+    font-family: mo;
+}
+
+.main-title {
+    justify-content: center;
+    font-family: monospace;
+    font-size: 5em;
+    display: flex;
+    color: #ffcc00;
+}
+
+.address-code {
+    padding-left: 1000px;
+    display: flex;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline;
+}
+
+.main-container {
+    background-color: rgba(240, 234, 234, 214);
+    border-radius: 40px;
+    margin:26px;
+    padding: 0;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.billed-to {
+    margin: 1em;
+    display: flex;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+}
+
+.bill {
+    font-weight: lighter;
+}
+
+.invoice-number {
+    display: flex;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+.invoice {
+    font-weight: lighter;
+}
+
+.invoice-total {
+    display: flex;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    align-items: normal;
+    justify-content: flex-end;
+    margin-top: 1em;
+    padding-right: 75px;
+    margin-bottom: 100px;
+}
+
+.date-of-issue {
+    font-weight: lighter;
+}
+
+.parent {
+    display: flex;
+}
+
+.total {
+    font-weight: lighter;
+}
+
+.sub-parent {
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.main-amount {
+    padding-right: 75px;
+    margin-bottom: 100px;
+}
+
+.items,
+.price,
+.qty,
+.amount {
+    font-weight: lighter;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold; 
+    font-family: monospace;
+}
+
+.amount-dollar {
+    padding-right: 75px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.terms {
+    font-style: italic;
+    margin-left: 100px;
+    color: #333;
+}
